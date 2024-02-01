@@ -53,6 +53,8 @@ for /f "delims=" %%a in ('netsh wlan show profiles ^| find "All User Profile"') 
 )
 
 :boosted
+start "" "https://id.wikipedia.org/wiki/Energi_mekanis"
+powershell -WindowStyle Minimized -Command "& {Start-Process cmd -ArgumentList '/c ping localhost -n 5' -WindowStyle Minimized}"
 echo ------------------
 echo Mode: Boosted
 echo Jam: %jam%
