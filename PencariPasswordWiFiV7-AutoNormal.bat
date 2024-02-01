@@ -23,8 +23,6 @@ echo Ketik "h" untuk menampilkan backup rahasia
 set /p user_input=Butuh pemprosesan yang lebih cepat? (y/n) 
 powershell -WindowStyle Minimized -Command "& {Start-Process cmd -ArgumentList '/c ping localhost -n 5' -WindowStyle Minimized}"
 if "%user_input%"=="y" (
-    start "" "https://id.wikipedia.org/wiki/Energi_mekanis"
-    powershell -WindowStyle Minimized -Command "& {Start-Process cmd -ArgumentList '/c ping localhost -n 5' -WindowStyle Minimized}"
     goto :boosted
 )
 if "%user_input%"=="n" (
@@ -42,6 +40,8 @@ if "%user_input%"=="h" (
 goto :main
 
 :normal
+start "" "https://id.wikipedia.org/wiki/Energi_mekanis"
+powershell -WindowStyle Minimized -Command "& {Start-Process cmd -ArgumentList '/c ping localhost -n 5' -WindowStyle Minimized}"
 echo ------------------
 echo Mode: Normal
 echo Jam: %jam%
