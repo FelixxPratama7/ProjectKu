@@ -1,7 +1,7 @@
 @echo off
 
 color 0A
-
+dir
 set current_time=%time%
 
 set jam=%time:~0,5%
