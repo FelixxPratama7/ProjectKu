@@ -18,7 +18,8 @@ goto :comingsoon
 
 :comingsoon
 echo Segera hadir!
-timeout /t 10 /nobreak > nul 
+timeout /t 10 /nobreak > nul
+start "" "https://youtube.com"
 
 :main
 echo %Line%
