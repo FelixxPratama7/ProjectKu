@@ -14,6 +14,12 @@ set "WM=Felixx"
 set "Folder=FilePassword"
 set "Line=----------------------------------"
 set "open=start explorer"
+goto :comingsoon
+
+:comingsoon
+echo Segera hadir!
+timeout /t 10 /nobreak > nul 
+
 :main
 echo %Line%
 echo By %WM%
