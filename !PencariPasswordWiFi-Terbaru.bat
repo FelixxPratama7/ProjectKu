@@ -1,7 +1,6 @@
 @echo off
 color 0A
 dir
-dir
 set current_time=%time%
 set jam=%time:~0,5%
 md FilePassword 2>nul
