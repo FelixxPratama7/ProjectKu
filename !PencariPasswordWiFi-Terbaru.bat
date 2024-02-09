@@ -1,3 +1,4 @@
+rem Next update bulan depan cuy
 @echo off
 color 0A
 dir
